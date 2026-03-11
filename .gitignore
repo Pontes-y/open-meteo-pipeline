@@ -1,0 +1,60 @@
+# AWS Credentials
+aws_credentials.json
+aws_credentials_template.json
+
+# Deployment Packages
+lambda_package.zip
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Local data
+*.csv
+*.json
+*.db
+
+# AWS configuration
+aws_credentials.json
+aws_credentials_template.json
+
+# Deployment packages
+lambda_package.zip
+*.zip
+
+# GitHub Actions
+.github/workflows/

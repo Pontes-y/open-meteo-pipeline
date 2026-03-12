@@ -57,4 +57,3 @@ lambda_package.zip
 *.zip
 
 # GitHub Actions
-.github/workflows/

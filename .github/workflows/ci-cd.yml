@@ -76,8 +76,8 @@ jobs:
           --zip-file fileb://lambda_package.zip \
           --handler lambda_package.lambda_handler.lambda_handler \
           --runtime python3.10 \
-          --timeout 30 \
-          --memory-size 128
+          --timeout 300 \
+          --memory-size 256
         
         # Deploy transform-temperature Lambda
         aws lambda update-function-code \
@@ -85,8 +85,8 @@ jobs:
           --zip-file fileb://lambda_package.zip \
           --handler lambda_package.transform_handler.transform_and_upload_to_rds \
           --runtime python3.10 \
-          --timeout 60 \
-          --memory-size 256
+          --timeout 300 \
+          --memory-size 512
         
     - name: Deploy Step Functions
       run: |
